@@ -25,7 +25,8 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 31
+    namespace 'com.shounakmulay.telephony_fix' // Use your actual package name
+    compileSdkVersion 33
 
     kotlinOptions {
         jvmTarget = "1.8"
